@@ -1,0 +1,136 @@
+ @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+.main-header{
+    background-image: url(Images/Header\ Background.jpg);
+    background-size: cover;
+    background-color: blueviolet;
+}
+@font-face{
+    font-family:myfirstfont;
+    src: url(Fonts/Booter\ -\ Zero\ Zero.woff),format("woff")
+    url(Fonts/Booter\ -\ Zero\ Zero.woff2)format("woff2");
+    font-weight: normal;
+    font-size: normal;
+}
+*{
+    box-sizing:border-box;
+    font-family: 'Great Vibes',cursive;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.main-nav{
+    text-align: center;
+}
+.main-nav li{
+    display: inline;
+}
+.main-nav a{
+    text-decoration: none;
+    color: beige;
+    padding: 50px;
+}
+.main-nav :hover{
+    color: darkgrey;
+    
+}
+H1{
+    color:blueviolet;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: blanchedalmond;
+}
+.container{
+    max-width: 1000px;
+    margin: 0;
+    padding: 0 15px;
+}
+.bandimage{
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+.main-footer{
+    background-color: cornflowerblue;
+
+    width:100%;
+    padding:0;
+    margin:0;
+    bottom:0;
+    text-align: center;
+}
+.main-footer LI{
+    display: inline;
+}
+.shopitem{
+    margin: 30px;
+}
+.shopitemtitle{
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    color: black;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.shopitemsdetails{
+    text-align: center;
+    display: flex;
+    padding: 5px;
+}
+.btn{
+    background-color: #56ccf2;
+    border: none;
+    border-radius: 3cm;
+    font-weight: bold;
+    color: white;
+}
+.btn a:hover{
+    background-color: blue
+}
+.cart-row{
+    display: inline-flex;
+}
+.cart-items{
+    width: 45%
+}
+.cart-total{
+    text-align: end;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.cart-column{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.2cm;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.cart-price{
+    width: 35%;
+    color: royalblue;
+}
+.cart-item{
+    width: 40%;
+    color: fuchsia;
+}
+.cart-quantity{
+    width: 35%;
+    color: chartreuse;
+}
+.cart-total-price{
+    color: red;
+    font-size: 1.1cm;
+}
+.section-header{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 1.5cm;
+    color: rebeccapurple;
+}
